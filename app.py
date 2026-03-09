@@ -557,6 +557,19 @@ def team_Seline_Youseff_Marine_Jorge():
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
 
-@app.route("/team_anthony_lesly_tri")
-def team_anthony_lesly_tri():
-    return render_template('teams/team_anthony_lesly_tri.html')
+@app.route("/diego_maynor")
+def team_diego_maynor():
+    return render_template('teams/diego_maynor.html')
+
+@app.route("/team_saj")
+def team_Steven_Ang_Jociel():
+    return render_template('teams/team_steven_ang_jociel.html')
+  
+@app.route("/woo_jos")
+def team_woo_jos():
+    return render_template('teams/team_woo_jos.html')
+
+@app.route("/Kaur_Arteaga_SantaMaria")
+def Kaur_Arteaga_SantaMaria():
+    return render_template('teams/Kaur_Arteaga_SantaMaria.html')
+
